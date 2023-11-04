@@ -150,7 +150,7 @@ def generate_buttons_html(config,dir_path):
     # Generate new HTML code for the buttons
     button_html = ''
     for button_brand, button_name, button_icon, button_link in button_details:
-        button_link = "/{}".format(button_link)
+        button_link = "{}".format(button_link)
         
         if not config[CONFIG_BASE_SHORT_URL] is None:
             button_link = config[CONFIG_BASE_SHORT_URL] + button_link
