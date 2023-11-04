@@ -1,0 +1,35 @@
+{
+    "DOWNLOAD_TAG_VER": "v2.3.4",
+    "ENABLE_EXTENDED": false,
+    "META": {
+        "TITLE": "Example Title",
+        "AUTHOR": "Example Author",
+        "DESCRIPTION": "Example Description",
+        "ICON_URL": "favicon.png",
+        "THEME": "dark"
+    },
+    "BIO": {
+        "ICON_URL": "icon.png",
+        "TITLE": "Example Title",
+        "DESCRIPTION": "Example Description",
+        "FOOTER": "Example Footer"
+    },
+    "BASE_SHORT_URL": "",
+    "ENABLE_REDIRECTS": true,
+    "LINKS": [
+        {
+            "brand": "github",
+            "icon": "github",
+            "name": "GitHub",
+            "link": "/github",
+            "redirects":
+            [
+                {
+                    "src": "/github",
+                    "dest": "https://github.com/xstar97",
+                    "code": 308
+                }
+            ]
+        }
+    ]
+}
