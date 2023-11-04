@@ -1,22 +1,36 @@
 {
     "DOWNLOAD_TAG_VER": "v2.3.4",
     "ENABLE_EXTENDED": false,
-    "META": {
-        "TITLE": "Example Title",
-        "AUTHOR": "Example Author",
-        "DESCRIPTION": "Example Description",
-        "ICON_URL": "favicon.png",
-        "THEME": "dark"
+    "META":{
+        "TITLE":"TrueCharts",
+        "AUTHOR":"TrueCharts",
+        "DESCRIPTION":"Socials, sponsors, and donations links",
+        "ICON_URL":"favicon.png",
+        "THEME":"dark"
     },
-    "BIO": {
-        "ICON_URL": "icon.png",
-        "TITLE": "Example Title",
-        "DESCRIPTION": "Example Description",
-        "FOOTER": "Example Footer"
+    "BIO":{
+        "ICON_URL":"icon.png",
+        "TITLE":"TrueCharts",
+        "DESCRIPTION":"Easy to Deploy | Consistent Ecosystem | Stability",
+        "FOOTER":"Thanks for the support!"
     },
     "BASE_SHORT_URL": "",
     "ENABLE_REDIRECTS": true,
     "LINKS": [
+        {
+            "brand": "web",
+            "icon": "generic-homepage",
+            "name": "Website",
+            "link": "/web",
+            "redirects":
+            [
+                {
+                    "src": "/web",
+                    "dest": "https://truecharts.org",
+                    "code": 308
+                }
+            ]
+        },
         {
             "brand": "github",
             "icon": "github",
@@ -26,7 +40,196 @@
             [
                 {
                     "src": "/github",
-                    "dest": "https://github.com/xstar97",
+                    "dest": "https://github.com/truecharts",
+                    "code": 308
+                },
+                {
+                    "src": "/gh",
+                    "dest": "https://github.com/truecharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "discord",
+            "icon": "discord",
+            "name": "Discord",
+            "link": "/discord",
+            "redirects":
+            [
+                {
+                    "src": "/discord",
+                    "dest": "https://discord.gg/tVsPTHWTtrs",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "yt",
+            "icon": "youtube",
+            "name": "YouTube",
+            "link": "/yt",
+            "redirects":
+            [
+                {
+                    "src": "/youtube",
+                    "dest": "https://www.youtube.com/@TrueCharts",
+                    "code": 308
+                },
+                {
+                    "src": "/yt",
+                    "dest": "https://www.youtube.com/@TrueCharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "faceb",
+            "icon": "facebook",
+            "name": "FaceBook",
+            "link": "/fb",
+            "redirects":
+            [
+                {
+                    "src": "/facebook",
+                    "dest": "https://www.facebook.com/truecharts",
+                    "code": 308
+                },
+                {
+                    "src": "/fb",
+                    "dest": "https://www.facebook.com/truecharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "reddit",
+            "icon": "reddit",
+            "name": "Reddit",
+            "link": "/reddit",
+            "redirects":
+            [
+                {
+                    "src": "/reddit",
+                    "dest": "https://www.reddit.com/r/truecharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "telegram",
+            "icon": "telegram",
+            "name": "Telegram",
+            "link": "/telegram",
+            "redirects":
+            [
+                {
+                    "src": "/telegram",
+                    "dest": "https://t.me/s/truecharts",
+                    "code": 308
+                },
+                {
+                    "src": "/tg",
+                    "dest": "https://t.me/s/truecharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "twit",
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "/tw",
+            "redirects":
+            [
+                {
+                    "src": "/twitter",
+                    "dest": "https://twitter.com/useTrueCharts",
+                    "code": 308
+                },
+                {
+                    "src": "/tw",
+                    "dest": "https://twitter.com/useTrueCharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "etsy",
+            "icon": "etsy",
+            "name": "Shop",
+            "link": "/shop",
+            "redirects":
+            [
+                {
+                    "src": "/shop",
+                    "dest": "https://www.etsy.com/shop/TrueCharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "web",
+            "icon": "generic-website",
+            "name": "Open Collective",
+            "link": "/oc",
+            "redirects":
+            [
+                {
+                    "src": "/opencollective",
+                    "dest": "https://opencollective.com/truecharts",
+                    "code": 308
+                },
+                {
+                    "src": "/oc",
+                    "dest": "https://opencollective.com/truecharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "patreon",
+            "icon": "patreon",
+            "name": "Patreon",
+            "link": "/patreon",
+            "redirects":
+            [
+                {
+                    "src": "/patreon",
+                    "dest": "https://www.patreon.com/truecharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "github",
+            "icon": "github",
+            "name": "GitHub Sponsor",
+            "link": "/ghs",
+            "redirects":
+            [
+                {
+                    "src": "/ghs",
+                    "dest": "https://github.com/sponsors/truecharts",
+                    "code": 308
+                }
+            ]
+        },
+        {
+            "brand": "ko-fi",
+            "icon": "ko-fi",
+            "name": "Ko-Fi",
+            "link": "/ko-fi",
+            "redirects":
+            [
+                {
+                    "src": "/ko-fi",
+                    "dest": "https://ko-fi.com/truecharts",
+                    "code": 308
+                },
+                {
+                    "src": "/coffee",
+                    "dest": "https://ko-fi.com/truecharts",
                     "code": 308
                 }
             ]
