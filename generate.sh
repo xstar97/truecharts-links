@@ -3,8 +3,10 @@
 # Clone the repository from GitHub into a temporary directory
 git clone https://github.com/xstar97/go-littlelinks-generator.git temp
 
+ls temp
+cp temp/output/littlelink-generator ./
 # Run the go-littlelinks-generator project
-go run temp/cmd/main.go --assets-path assets/ --config links.json
+./littlelink-generator --assets-path assets/ --config links.json
 
 # Copy the build directory to the root directory
 cp -r temp/build /build
