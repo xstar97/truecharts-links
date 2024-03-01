@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Clone the repository from GitHub into the current directory
-git clone --depth=1 https://github.com/xstar97/go-littlelinks-generator.git .
+git clone https://github.com/xstar97/go-littlelinks-generator.git .
 
 # Copy the files from the output directory to the parent directory
 cp -r output/* .
