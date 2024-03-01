@@ -1,7 +1,5 @@
 {
     "scripts": {
-        "clone": "git clone https://github.com/xstar97/go-littlelinks-generator.git /",
-        "go_run": "go run cmd/main.go --assets-path assets/ --config links.json",
-        "build": "npm run clone && npm run go_run"
+        "build": "chmod +x generate.sh && ./generate.sh"
       }
 }
