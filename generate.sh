@@ -1,13 +1,19 @@
 #!/bin/bash
 
-# Download the latest release zip file from GitHub
-wget -q https://github.com/xstar97/go-littlelinks-generator/releases/latest/download/go-littlelinks-generator.zip
+# Clone the repository from GitHub
+git clone --depth=1 https://github.com/xstar97/go-littlelinks-generator.git
 
-# Unzip the downloaded file
-unzip -q go-littlelinks-generator.zip
+# Navigate into the cloned directory
+cd go-littlelinks-generator
 
-# Copy the output/littlelink-generator to the current directory
-cp output/littlelink-generator .
+# Build the project
+go build
+
+# Copy the littlelink-generator executable to the parent directory
+cp littlelink-generator ..
+
+# Navigate back to the parent directory
+cd ..
 
 # Run the littlelink-generator with the specified parameters
 ./littlelink-generator --assets-path assets --config links.json
