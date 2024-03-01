@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "clone": "git clone --depth=1 https://github.com/xstar97/go-littlelinks-generator.git .",
+        "clone": "git clone --depth=1 https://github.com/xstar97/go-littlelinks-generator.git",
         "go_run": "go run cmd/main.go --assets-path assets/ --config links.json",
         "build": "npm run clone && npm run go_run"
       }
