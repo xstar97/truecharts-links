@@ -1,5 +1,5 @@
 {
     "scripts": {
-        "build": "chmod +x /generate.sh && /generate.sh"
+        "build": "chmod +x generate.sh && generate.sh"
       }      
 }
